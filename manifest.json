@@ -1,6 +1,9 @@
 {
-  "name": "My Fullscreen App",
-  "short_name": "App",
+  "name": "Evolut | e-brochure",
+  "short_name": "Evolut",
   "start_url": "/",
   "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "orientation": "portrait",
 }
