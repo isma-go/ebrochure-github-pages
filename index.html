@@ -1,66 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="It">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Evolut | e-brochure</title>
-
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-  <!-- Manifest -->
-  <link rel="manifest" href="/manifest.json">
-  <meta name="theme-color" content="#ffffff">
-
-  <!-- iOS full screen support -->
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  <meta name="apple-mobile-web-app-title" content="Evolut">
-  <link rel="apple-touch-icon" href="/icons/icon-192.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evolut | e-brochure</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <link href="/Users/ismaelgodinez/Documents/FINSA/Projects/E-brochure/e-brochure/style.css" rel="stylesheet">
 </head>
 <body>
-  <div class="frame">
-    <iframe src="https://embed.figma.com/proto/B1bqqREW1YE7yKUD1rOIAl/Wireframe-quiz?page-id=329%3A2363&node-id=329-2383&viewport=233%2C130%2C0.33&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=329%3A2383&show-proto-sidebar=1&embed-host=share&hide-ui=false" allowfullscreen></iframe>
-  </div>
+    <section id="landing">
+        <div class="logo">
+            <img src="/Users/ismaelgodinez/Documents/FINSA/Projects/E-brochure/e-brochure/assets/logo2-EV-black.svg" alt="Evolut e-brochure">
+        </div>
+        <div class="content-intro">
+            <div class="intro">
+                Quanto ne sapete della tecnologia dei veicoli elettrici?
+                <br><br>
+                Scopri la nuova Evolut 1 e i suoi vantaggi per diventare più smart, più sostenibile e più dinamico.
+            </div>
+            <div class="claims">
+                <div class="claim-1">
+                    Sei pronto per la sfida?
+                </div>
+                <div class="claim-2">
+                    Gioca e scopri la EVolut 1
+                </div>
+            </div>
+        </div>
+        <div class="cta-container">
+            <button class="principal">
+                <img src="/Users/ismaelgodinez/Documents/FINSA/Projects/E-brochure/e-brochure/assets/Icona 24px/Linear/Arrows/Freccia SX.svg" alt="arrow">
+            </button>
+        </div>
+    </section>
 
-  <script>
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/service-worker.js')
-          .then(reg => console.log('SW registered:', reg.scope))
-          .catch(err => console.log('SW registration failed:', err));
-      });
-    }
-
-    // Optional: hide address bar trick
-    window.addEventListener('load', () => {
-      setTimeout(() => window.scrollTo(0, 1), 0);
-    });
-  </script>
+    <!-- <div class="frame">
+        <iframe src="https://embed.figma.com/proto/B1bqqREW1YE7yKUD1rOIAl/Wireframe-quiz?page-id=329%3A2363&node-id=329-2383&viewport=233%2C130%2C0.33&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=329%3A2383&show-proto-sidebar=1&embed-host=share&hide-ui=true" allowfullscreen></iframe>
+    </div> -->
 </body>
-
-<style>
-  * {
-    margin: 0;
-  }
-
-  html, body {
-    overflow: hidden;
-    height: 100%;
-  }
-
-  .frame {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-  }
-
-  iframe {
-    border: none;
-    width: 100%;
-    height: 100%;
-  }
-</style>
 </html>
-
