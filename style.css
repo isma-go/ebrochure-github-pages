@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+
+    background: linear-gradient(180deg, #0E1A1B 0%, #2C7C84 100%);
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 100%;
+}
+
+section {
+    background-image: url(/Users/ismaelgodinez/Documents/FINSA/Projects/E-brochure/e-brochure/assets/bitmap.png);
+    background-size: cover;
+    padding: 80px 32px 48px 32px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.content-intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 48px;
+}
+
+div.intro {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.claims {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.claim-1 {
+    line-height: 120%;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.claim-2 {
+    text-align: center;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.cta-container {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+button.principal {
+    display: flex;
+    width: fit-content;
+    padding: 16px 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background: #64D5B3;
+    border: none;
+}
+
+/* div.frame {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+iframe {
+    border: none;
+    width: 100%;
+    height: 100%;
+} */
