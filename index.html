@@ -10,6 +10,7 @@
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
+    <button onclick="openFullscreen()">Go Fullscreen</button>
     <section id="landing">
         <div class="logo">
             <img src="logo2-EV-black.svg" alt="Evolut e-brochure">
@@ -39,5 +40,18 @@
     <!-- <div class="frame">
         <iframe src="https://embed.figma.com/proto/B1bqqREW1YE7yKUD1rOIAl/Wireframe-quiz?page-id=329%3A2363&node-id=329-2383&viewport=233%2C130%2C0.33&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=329%3A2383&show-proto-sidebar=1&embed-host=share&hide-ui=true" allowfullscreen></iframe>
     </div> -->
+
+     <script>
+        function openFullscreen() {
+            const elem = document.documentElement;
+            if (elem.requestFullscreen) {
+                elem.requestFullscreen();
+            } else if (elem.webkitRequestFullscreen) { /* Safari */
+                elem.webkitRequestFullscreen();
+            } else if (elem.msRequestFullscreen) { /* IE11 */
+                elem.msRequestFullscreen();
+            }
+        }
+    </script>
 </body>
 </html>
